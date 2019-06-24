@@ -1,8 +1,8 @@
 'use strict';
 
 class Triangle extends Figura {
-	constructor(pwidth, pheight, pcolor, pcontainer) {
-		super(pwidth, pheight, pcolor, pcontainer);
+	constructor(width, height, pcolor, container) {
+		super(width, height, pcolor, container);
 
 		this.div.style.width = '0px';
 		this.div.style.height = '0px';
