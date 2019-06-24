@@ -36,6 +36,21 @@ const bCreate = () => {
         case 'parallelogram':
             let parallelogram = new Parallelogram(width, height, color, elementContainer);
             break;
+        case 'triangleBottomRight':
+            let triangleBottomRight = new TriangleBottomRight(width, height, color, elementContainer);
+            break;
+        case 'triangleTopRight':
+            let triangleTopRight = new TriangleTopRight(width, height, color, elementContainer);
+            break;
+        case 'triangleRight':
+            let triangleRight = new TriangleRight(width, height, color, elementContainer);
+            break;
+        case 'egg':
+            let egg = new Egg(width, height, color, elementContainer);
+            break;
+        case 'pacMan':
+            let pacMan = new PacMan(width, height, color, elementContainer);
+            break;
         default:
             console.log('error');
             break;
