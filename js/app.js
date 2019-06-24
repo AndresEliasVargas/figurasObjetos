@@ -33,7 +33,11 @@ const bCreate = () => {
         case 'trapezoid': 
             let trapezoid = new Trapezoid(width, height, color, elementContainer);
             break;
+        case 'parallelogram':
+            let parallelogram = new Parallelogram(width, height, color, elementContainer);
+            break;
         default:
+            console.log('error');
             break;
     }
 }

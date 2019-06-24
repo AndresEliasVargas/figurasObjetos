@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,35 @@
     <title>Tarea 4: Figuras</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1 id="title">Project: Figuras</h1>
-    <input type="number" id="widthTxt" placeholder="Width">
-    <input type="number" id="heightTxt" placeholder="Height">
+    <h1 id="title" class="text-center">Project: Figuras</h1>
+    <div class="containForm">
+        <div>
+            <input type="number" id="widthTxt" placeholder="Width">
+        </div>
+        <div>
+            <input type="number" id="heightTxt" placeholder="Height">
+        </div>
+        <div>
+            <select id="sColor">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
 
-    <select id="sColor">
-        <option value="red">Red</option>
-        <option value="green">Green</option>
-        <option value="blue">Blue</option>
-    </select>
-
-    <select id="sFigura">
-        <option value="square">Square</option>
-        <option value="circle">Circle</option>
-        <option value="triangle">Triangle</option>
-        <option value="trapezoid">Trapezoid</option>
-    </select>
-
-    <button id="btnCreate" type="button">Create</button>
+            <select id="sFigura">
+                <option value="square">Square</option>
+                <option value="parallelogram">Parallelogram</option>
+                <option value="circle">Circle</option>
+                <option value="triangle">Triangle</option>
+                <option value="trapezoid">Trapezoid</option>
+            </select>
+        </div>
+        <div>
+            <button id="btnCreate" type="button">Create</button>
+        </div>
+    </div>
 
     <section id="container">
         <div></div>
@@ -37,5 +48,7 @@
     <script src="js/Triangle.js"></script>
     <script src="js/Circle.js"></script>
     <script src="js/Trapezoid.js"></script>
+    <script src="js/Parallelogram.js"></script>
 </body>
+
 </html>

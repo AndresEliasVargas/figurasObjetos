@@ -5,6 +5,10 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+	width: 100%;
+}
+
 button {
 	height: 40px;
 	width: auto;
@@ -26,37 +30,23 @@ input{
 	appearance: none;
 }
 
-select {	
-	height: 40px;
-	font-size: 15px;
-	background:none;
-	border-color: lightgray;
+#container {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
 }
 
-table {
-	font-family: verdana,arial,sans-serif;
-	font-size:14px;
-	color:#333333;
-	border-width: 1px;
-	border-color: #cecece;
-	border-collapse: collapse;
-	width: auto;
-	
+.text-center{
+	text-align: center;
+	margin-bottom: 50px;
 }
 
-table th {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #941751;
-	background-color: #941751;
-	color: white;
+.containForm{
+	width: 15%;
+	margin: 0 auto;
 }
 
-table td {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #cecece;
-	background-color: #ffffff;
+button{
+	margin: 0 auto;
+	width: 100%;
 }
